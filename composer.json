@@ -1,0 +1,19 @@
+{
+    "name": "windows/windows",
+    "description": "Estudando composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Windows\\Windows\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "IssamuHuti",
+            "email": "lucas.issamum@gmail.com"
+        }
+    ],
+    "require": {
+        "mpdf/mpdf": "^6.1"
+    }
+}
